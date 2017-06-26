@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_cart_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/bar_height"
+    android:background="@color/tv_bg_gray"
+    android:clickable="true"
+    android:gravity="center"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_cart_empty"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/shopping_cart_masterless" />
+
+    <TextView
+        android:id="@+id/tv_cart_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_cart_empty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="购物车无商品"
+        android:textColor="@color/cart_spec_tv"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_to_home"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_cart_empty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_cart_empty"
+        android:gravity="center"
+        android:text="去逛逛"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

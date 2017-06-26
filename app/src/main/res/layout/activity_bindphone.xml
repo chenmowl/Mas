@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_category"
+        android:id="@+id/temp_ll_bindphone_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_ll_bindphone_head"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+                <Button
+                    android:id="@+id/btn_bindphone_getvercode"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/get_vercode"
+                    android:background="@color/status_btn_gray"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white"
+                    />
+                <EditText
+                    android:id="@+id/et_bindphone_newnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/btn_bindphone_getvercode"
+                    android:background="@color/white"
+                    android:singleLine="true"
+                    android:hint="@string/bindphone_hint_input_newnumber"
+                    android:textSize="14sp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="36dp"
+                    android:textColorHint="@color/et_hint_gray"
+                    android:inputType="number|textNoSuggestions"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/split_line_light"
+                />
+
+            <EditText
+                android:id="@+id/et_bindphone_vercode"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/white"
+                android:singleLine="true"
+                android:hint="@string/bindphone_hint_input_vercode"
+                android:textSize="14sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="36dp"
+                android:textColorHint="@color/et_hint_gray"
+                android:inputType="number|textNoSuggestions"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_bindphone_bind"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/bindphone_btn_ok"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_status_unable"
+            />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+</RelativeLayout>

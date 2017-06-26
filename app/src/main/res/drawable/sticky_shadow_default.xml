@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="90"
+        android:centerColor="@color/sticky_shadow_center"
+        android:endColor="@color/sticky_shadow_end"
+        android:startColor="@color/sticky_shadow_start" >
+    </gradient>
+
+</shape>
+

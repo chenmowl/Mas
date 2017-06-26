@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_order_waiting_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/mv_order_waiting_map"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rl_fow_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_order_waiting_phone"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/temp_rl_fow_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                >
+                <LinearLayout
+                    android:id="@+id/temp_ll_fow_psy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order_hint_shopper_name"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_fow_shopper_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="大师兄"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@id/temp_ll_fow_psy"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order_hint_served_time"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_fow_served_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="今天16:00"
+                        android:textSize="10sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/temp_iv_fow_line"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_toRightOf="@id/temp_rl_fow_content"
+                android:layout_alignTop="@id/temp_rl_fow_content"
+                android:layout_alignBottom="@id/temp_rl_fow_content"
+                android:layout_marginRight="8dp"
+                android:layout_centerVertical="true"
+                />
+            
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_toRightOf="@id/temp_iv_fow_line"
+                android:src="@mipmap/order_dianhua"
+                android:layout_centerVertical="true"
+                android:background="@color/fulltransparent"
+                />
+            
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_order_waiting_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_order_waiting_open"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_order_waiting_la"
+            android:src="@mipmap/shangla"
+
+            />
+
+        <com.eme.mas.customeview.MListView
+            android:id="@+id/mlv_order_waiting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0.5dp"
+            android:divider="@color/cline_low"
+            android:layout_below="@id/ib_order_waiting_open"
+            android:listSelector="@color/fulltransparent"
+
+            />
+
+    </RelativeLayout>
+
+    <include layout="@layout/network_loading_av_bg_nottransparent_full" />
+    <include layout="@layout/layout_no_data_full" />
+    <include layout="@layout/no_network_loading_full" />
+
+
+</RelativeLayout>

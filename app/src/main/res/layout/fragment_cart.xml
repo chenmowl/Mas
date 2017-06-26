@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="购物车"
+            android:textColor="@color/text_color_bar"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_alldelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:text="全部删除"
+            android:textColor="@color/text_color_bar"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cline_low" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp">
+
+                <ImageView
+                    android:id="@+id/iv_select_all"
+                    android:layout_width="@dimen/cart_checkbox_size"
+                    android:layout_height="@dimen/cart_checkbox_size"
+                    android:src="@mipmap/nochoice_default" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ll_select_all"
+                android:gravity="center_vertical"
+                android:text="全选" />
+
+            <LinearLayout
+                android:id="@+id/ll_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/ll_select_all"
+                    android:gravity="center_vertical"
+                    android:text="删除" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!--<com.eme.mas.customeview.StickyScrollView-->
+        <!--android:id="@+id/sl_cart"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:fillViewport="true">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/cline_low" />
+
+            <!--<com.eme.mas.customeview.swipitem.SwipeMenuListView-->
+            <!--android:id="@+id/lv_cart"-->
+            <!--style="@style/MListView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/activity_bg" />-->
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/lv_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/activity_bg" />
+
+        </LinearLayout>
+
+
+        <!--</com.eme.mas.customeview.StickyScrollView>-->
+
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/white">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="合计: "
+                    android:textColor="@color/text_color_bar"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/total"
+                    android:text="￥2055.88"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="14sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/cline_low" />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_check_out"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:background="@color/main_color_red"
+                android:gravity="center"
+                android:text="去结算"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <include layout="@layout/cart_updater_loading" />
+
+    <include layout="@layout/no_network_loading_44" />
+
+    <include layout="@layout/page_cart_empty" />
+
+
+</RelativeLayout>

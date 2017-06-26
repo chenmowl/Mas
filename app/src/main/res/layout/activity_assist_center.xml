@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/agreement" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mine_title_help"
+            android:textColor="@color/text_color_bar"
+            android:textSize="17sp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cline_low" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/rl_title"
+        android:background="@color/tv_bg_gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question01" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer01" />
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question02" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer02" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question03" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer03" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question04" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer04" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question05" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer05" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question06" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer06" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_question07" />
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assist_center_answer07" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/ib_call"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="16dp"
+        android:background="@mipmap/button_call"
+        android:clickable="true"
+        android:elevation="5dp" />
+
+
+</RelativeLayout>

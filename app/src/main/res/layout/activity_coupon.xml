@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_normal_extend"
+        android:id="@+id/temp_coupon_head"
+       />
+
+    <RelativeLayout
+        android:id="@+id/rl_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/temp_coupon_head"
+        >
+        <LinearLayout
+            android:id="@+id/ll_coupon_expire_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="有"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/tv_coupon_expire_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="个红包即将到期"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/btn_coupon_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="优惠券说明"
+            android:textSize="12sp"
+            android:textColor="@color/main_color_blue"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            />
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@id/rl_subtitle"
+        />
+
+    <include layout="@layout/layout_no_data_44"/>
+    <include layout="@layout/no_network_loading_44" />
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+
+</RelativeLayout>

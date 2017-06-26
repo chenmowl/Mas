@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/titlebar_normal_extend"
+        android:id="@+id/temp_order_coupon_head"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/temp_order_coupon_head"
+        >
+        <RelativeLayout
+            android:id="@+id/rl_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="有"
+                    android:textSize="12sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/tv_order_coupon_enable_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:textSize="12sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="个可用优惠券"
+                    android:textSize="12sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="优惠券说明"
+                android:textSize="12sp"
+                android:textColor="@color/main_color_blue"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                />
+
+
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_below="@id/rl_subtitle"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_coupon_bia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/temp_order_coupon_head"
+        android:src="@mipmap/wu"
+        android:scaleType="center"
+        android:background="@color/activity_bg"
+        android:visibility="gone"
+        />
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+</RelativeLayout>

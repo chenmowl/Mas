@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/activity_bg"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/order_item_id"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                />
+            <TextView
+                android:id="@+id/tv_ioh_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="xxx"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+
+            <TextView
+                android:id="@+id/tv_ioh_status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="xxx xxx"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/main_color_red"
+
+                />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/cline_low"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                />
+
+            <ImageButton
+                android:id="@+id/ib_ioh_delete"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/order_delete"
+                android:background="@color/fulltransparent"
+                android:scaleType="fitXY"
+                android:padding="12dp"
+                android:layout_marginRight="-10dp"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cline_low"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_ioh_pic1"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contextClickable="false"
+                android:clickable="false"
+                fresco:placeholderImage="@mipmap/common_center_placeholder"
+                fresco:placeholderImageScaleType="focusCrop"
+                fresco:actualImageScaleType="focusCrop"
+                android:background="@color/cline_low"
+                fresco:roundingBorderColor="#e1e1e1"
+                android:visibility="gone"
+                fresco:roundingBorderWidth="0dp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_ioh_pic2"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contextClickable="false"
+                android:clickable="false"
+                fresco:placeholderImage="@mipmap/common_center_placeholder"
+                fresco:placeholderImageScaleType="focusCrop"
+                fresco:actualImageScaleType="focusCrop"
+                android:layout_marginLeft="8dp"
+                android:visibility="gone"
+                android:background="@color/cline_low"
+                fresco:roundingBorderColor="#e1e1e1"
+                fresco:roundingBorderWidth="0dp" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_ioh_pic3"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contextClickable="false"
+                android:clickable="false"
+                fresco:placeholderImage="@mipmap/common_center_placeholder"
+                fresco:placeholderImageScaleType="focusCrop"
+                fresco:actualImageScaleType="focusCrop"
+                android:layout_marginLeft="8dp"
+                android:visibility="gone"
+                android:background="@color/cline_low"
+                fresco:roundingBorderColor="#e1e1e1"
+                fresco:roundingBorderWidth="0dp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/temp_iv_ioh_arrow"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/mine_item_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_ioh_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xxx"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/text_color_bar"
+            android:layout_toLeftOf="@id/temp_iv_ioh_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/cline_low"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/order_item_count"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_bar"
+                android:textSize="12sp"
+                android:text="@string/order_edit_money_unit"
+                android:layout_marginLeft="4dp"
+                />
+            <TextView
+                android:id="@+id/tv_ioh_money"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="xxx.xx"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            >
+            <!--<Button-->
+                <!--android:id="@+id/btn_ioh_to_evaluate"-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="24dp"-->
+                <!--android:background="@drawable/border_gray_solid_white_6"-->
+                <!--android:text="去评价"-->
+                <!--android:textColor="@color/hint_text_gray"-->
+                <!--android:textSize="11sp"-->
+                <!--/>-->
+
+            <Button
+                android:id="@+id/btn_ioh_rihgt_btn"
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                android:background="@drawable/btn_status_enable"
+                android:text="再次购买"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginLeft="15dp"
+                />
+            
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

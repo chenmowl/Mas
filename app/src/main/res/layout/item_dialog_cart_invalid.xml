@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@color/activity_bg"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_checkbox"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/wuxiao" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_pro_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="乐视(Lay's)大波浪薯片145g"
+            android:textColor="@color/cart_tv_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_pro_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dp"
+            android:text="￥35.88"
+            android:textColor="@color/cart_tv_gray"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/cart_margin_left"
+            android:background="@drawable/btn_cat_increase"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_reduce"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_reduce"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/subtract_defanult" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="0.3dp"
+                android:layout_height="match_parent"
+                android:background="@color/cart_spec_tv" />
+
+            <TextView
+                android:id="@+id/tv_show_cart_item_number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="@color/cart_tv_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="0.3dp"
+                android:layout_height="match_parent"
+                android:background="@color/cart_spec_tv" />
+
+            <LinearLayout
+                android:id="@+id/ll_add"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/wuxiao_add" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cline_low" />
+
+</LinearLayout>

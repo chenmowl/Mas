@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_home_brand" />
+    </LinearLayout>
+
+    <View style="@style/CLineHor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_brand_item_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_brand01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand_04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/CLineHor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_brand_item_height"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_brand05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand_05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand_06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand07"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand_07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View style="@style/CLineVer" />
+
+        <LinearLayout
+            android:id="@+id/ll_brand08"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_brand_08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_brand_name_08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text_color_bar"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

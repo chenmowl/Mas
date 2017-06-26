@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/titlebar_normal"
+        android:id="@+id/temp_evaluate_haeder"
+        />
+
+    <ScrollView
+        android:id="@+id/sv_evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_evaluate_haeder"
+        android:layout_marginBottom="48dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:id="@+id/view_require_nottop_bugs"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/evaluate_hint_service"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/evaluate_title_speed"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_color_bar"
+                    android:gravity="center_vertical"
+                    android:id="@+id/textView" />
+
+                <com.hedgehog.ratingbar.RatingBar
+                    android:id="@+id/rbar_evaluate_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    hedgehog:clickable="true"
+                    hedgehog:halfstart="false"
+                    hedgehog:starCount="5"
+                    hedgehog:starEmpty="@mipmap/star_empty"
+                    hedgehog:starFill="@mipmap/star_appraise"
+                    hedgehog:starHalf="@mipmap/star_half"
+                    hedgehog:starImageHeight="32dp"
+                    hedgehog:starImageWidth="32dp"
+                    hedgehog:starImagePadding="10dp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/cline_low"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/evaluate_title_attitude"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_color_bar"
+                    android:gravity="center_vertical"
+                    />
+                <com.hedgehog.ratingbar.RatingBar
+                    android:id="@+id/rbar_evaluate_attitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    hedgehog:clickable="true"
+                    hedgehog:halfstart="false"
+                    hedgehog:starCount="5"
+                    hedgehog:starEmpty="@mipmap/star_empty"
+                    hedgehog:starFill="@mipmap/star_appraise"
+                    hedgehog:starHalf="@mipmap/star_half"
+                    hedgehog:starImageHeight="32dp"
+                    hedgehog:starImageWidth="32dp"
+                    hedgehog:starImagePadding="10dp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/evaluate_hint_goods"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                />
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_evaluate_goods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                />
+            
+        </LinearLayout>
+
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/btn_evaluate_submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_color_red"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/evaluate_title_submit"
+        />
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+</RelativeLayout>

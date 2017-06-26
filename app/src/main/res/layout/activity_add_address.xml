@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    >
+
+    <include layout="@layout/titlebar_normal_extend"
+        android:id="@+id/temp_add_address_head"/>
+        />
+
+    <ScrollView
+        android:id="@+id/sv_aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_add_address_head"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <com.amap.api.maps2d.MapView
+                    android:id="@+id/mv_aa_map"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                android:id="@+id/iv_aa_position"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/zuobia0"/>
+
+                <!--<ImageView-->
+                <!--android:paddingBottom="28dp"-->
+                <!--android:id="@+id/iv_move_icon"-->
+                <!--android:layout_margin="15dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:src="@mipmap/dingwei_red"/>-->
+
+
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_margin="15dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/bg_item_white_corner_5"
+                >
+                <TextView
+                    android:id="@+id/temp_tv_add_address_receipt_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/my_address_receipt_address"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    />
+                <ImageButton
+                    android:id="@+id/ib_add_address_receipt_address_delete"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:src="@mipmap/personalinfo_et_shanchu"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/fulltransparent"
+                    android:visibility="invisible"
+                    android:scaleType="center"
+                    />
+
+                <!--<HorizontalScrollView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_toLeftOf="@id/ib_add_address_receipt_address_delete"-->
+                    <!--android:layout_toRightOf="@id/temp_tv_add_address_receipt_address"-->
+                    <!--android:scrollbars="none" >-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_add_address_receipt_address"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:text="23232"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:paddingLeft="8dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:textColor="@color/text_color_bar"-->
+                        <!--/>-->
+                    <!--</HorizontalScrollView>-->
+
+
+                <TextView
+                    android:id="@+id/tv_add_address_receipt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:layout_toLeftOf="@id/ib_add_address_receipt_address_delete"
+                    android:layout_toRightOf="@id/temp_tv_add_address_receipt_address"
+                    android:textSize="14sp"
+                    android:paddingLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_bar"
+                    />
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_add_address_receipt_address"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_toLeftOf="@id/ib_add_address_receipt_address_delete"-->
+                    <!--android:layout_toRightOf="@id/temp_tv_add_address_receipt_address"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:paddingLeft="8dp"-->
+                    <!--android:textColor="@color/text_color_bar"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--/>-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/bg_item_white"
+                    >
+                    <TextView
+                        android:id="@+id/temp_tv_add_address_receipt_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/my_address_receipt_detail"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="14sp"
+                        android:gravity="center_vertical"
+                        />
+                    <ImageButton
+                        android:id="@+id/ib_add_address_receipt_detail_delete"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:src="@mipmap/personalinfo_et_shanchu"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/fulltransparent"
+                        android:visibility="gone"
+                        android:scaleType="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_add_address_receipt_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/ib_add_address_receipt_detail_delete"
+                        android:layout_toRightOf="@id/temp_tv_add_address_receipt_detail"
+                        android:textSize="14sp"
+                        android:paddingLeft="8dp"
+                        android:textColor="@color/cart_spec_tv"
+                        android:background="@color/white"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/cline_low"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/bg_item_white"
+                    >
+                    <TextView
+                        android:id="@+id/temp_tv_add_address_receipt_men"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/my_address_receipt_men"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="14sp"
+                        android:gravity="center_vertical"
+                        />
+                    <ImageButton
+                        android:id="@+id/ib_add_address_receipt_men_delete"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:src="@mipmap/personalinfo_et_shanchu"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/fulltransparent"
+                        android:visibility="gone"
+                        android:scaleType="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_add_address_receipt_men"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/ib_add_address_receipt_men_delete"
+                        android:layout_toRightOf="@id/temp_tv_add_address_receipt_men"
+                        android:textSize="14sp"
+                        android:paddingLeft="8dp"
+                        android:textColor="@color/cart_spec_tv"
+                        android:singleLine="true"
+                        android:background="@color/white"
+                        />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/cline_low"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/bg_item_white"
+                    >
+                    <TextView
+                        android:id="@+id/temp_tv_add_address_receipt_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/my_address_receipt_phone"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="14sp"
+                        android:gravity="center_vertical"
+                        />
+                    <ImageButton
+                        android:id="@+id/ib_add_address_receipt_phone_delete"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:src="@mipmap/personalinfo_et_shanchu"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/fulltransparent"
+                        android:visibility="gone"
+                        android:scaleType="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_add_address_receipt_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/ib_add_address_receipt_phone_delete"
+                        android:layout_toRightOf="@id/temp_tv_add_address_receipt_phone"
+                        android:textSize="14sp"
+                        android:paddingLeft="8dp"
+                        android:textColor="@color/cart_spec_tv"
+                        android:background="@color/white"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_add_address_done"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/done"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_status_enable"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+</RelativeLayout>

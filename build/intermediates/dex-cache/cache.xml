@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_bf605a670c04668ac622a5beb8c1190428a6db51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.2_56dca69ff2d5c9c3064e30d74fea7dbf1ca80fde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.shizhefei/ViewPagerIndicator/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5efedff98d423ad3a3080501f5b543ffe1bdfa27">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.shizhefei-ViewPagerIndicator-1.1.0_b5285fb634004957655f093b78d658512b705c24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a5d30d2871fa223daa47a0e897ff4253ec188ba">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.flyco.tablayout-FlycoTabLayout_Lib-2.0.2_463ead2a9a1a45f641c1f06961dc3a04a8a0edb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_29a5d2e591b8a39e0d006b8fd84d0c1b134cdbc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/libammsdk_d88f8fbe0d060d1ff94c8eded45c26c102bff425/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_708cd2a37c5ae0eb64b81a1046ce6c2fa776abdc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/commons-lang-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ed321502fb760076e07c2b3722d34cb94bad9eb">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang-2.4_cd12a54fec0a90f7ed7f76a5902123daebf798fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.baoyz.swipemenulistview-library-1.3.0_e56e275b7d986a7195467c9c9d10d0e152ce7057/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_6f1e8cc395bfa5f05e5044e0e16524d8775407c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b41aeb10852ba27c38806aeb79673163e2049db2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_e054bd9b36adc811a6b82e22378f9517096675fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4-beta2/6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92/leakcanary-watcher-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.4-beta2_970bab1829e12a86cd61c81f6f1fa200df957f8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_84acaca050fd5cfb70cca7a5ac2e53182d3d0580/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_f571fda52827f76d2e61be1c72d4dc1108f1a3f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.1.1_94723e1b9b2a2eb55c0bbf408a6e383a100f296e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.owater.library/CircleTextViewlibrary/0.8.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d1c2c9387a3213136a3df359d398d775e13dc20">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.owater.library-CircleTextViewlibrary-0.8.3_b1b4d8eab532b3f50bfcae4925f38290577ce14d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d483779dc728392fefecb9a9650d01bac9e04d3b">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-2.3.0_89d0c4f728d4462bfec721df93a585a0d16aebef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/fastjson-1.1.38.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1edccd37c7a288cce12bd1be1831ab6f8ed8fa12">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.1.38_4e10148e72dfd70cda2a15ac951d884fddc2f252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.15/9093a362d18c5f81f58e49d86dece57d9b6e1cb7/library-1.0.15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9093a362d18c5f81f58e49d86dece57d9b6e1cb7">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.15_915de63fc3331f3e1f03396302a84a33821f3557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/httpcore-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.2_7e9a79d0d85bb02183f495231afb1420c4580839/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.1.4_42cfbbf61bbc53223289e1f7cfc693b4514bd0ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.androidanimations-library-1.1.3_85ecaa5701524ef718b9823c1981d05562ae7781/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_42fba03244801b070aee3eb2aca4362a1d61aed3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.10.0_f2bb2bc04c792394f3023cc96d760a7fa2443514/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4-beta2/449777cd466ac0a16f7e8d0dc508e70e2cdd13a9/leakcanary-analyzer-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="449777cd466ac0a16f7e8d0dc508e70e2cdd13a9">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.4-beta2_f5a5a5701cd2646ba2323ce07840503bca451037/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.0/5c43618ae2e514637c58474e9e9663c8f054b72f/realm-annotations-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5c43618ae2e514637c58474e9e9663c8f054b72f">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.3.0_595d3243030972c033e034db499c97d99e6483a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b09a3b885f4a9b689eb723c56b8526960c5f0115">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.wang.avi-library-2.1.2_fab9ddefd9febdc7854d2418a03b5c298cefbc04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/AMap2DMap_2.9.0_AMapSearch_3.3.0_AMapLocation_2.7.0_20160726.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0c1c9ef1ee57a00f7667b6779c6f836d41340f44">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap2DMap_2.9.0_AMapSearch_3.3.0_AMapLocation_2.7.0_20160726_56a641d0a3f1870b83f8afbb61506b79f267f096/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.hedgehog.ratingbar/app/1.1.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d44591ba0874a48bc2c8c32f636697d6997e232">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.hedgehog.ratingbar-app-1.1.2_b4087f6b47f851bd95caed57ff05bf6b5f940ced/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="39f4711f0509cf24d79f5087f818e26236edfe40">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_682455a926ecf8e33db481b1afc3652c73b8a453/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_2220ca001c84e3ef91c9c7c29793c2f8531fc2ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.10.0_a6be1b0e7cabfa5ee9907f65aa3c687498769dcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/alipaySdk-20160803.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b61f43b9ae8cd4939362a8a4d9a46fe4a7153674">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/alipaySdk-20160803_a339e35eac73b118eddb3b1c39b4525b2845ac2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.10.0_c53256566ce9fa378ff26c662315b75d6e2fa86e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.bigkoo/convenientbanner/2.0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.bigkoo-convenientbanner-2.0.5_f96e5dc647cc66a50ba739acd98465f6744ffcdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/libs/httpmime-4.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.5_961cbe52111f2704cd90493357a22476abd9fc09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_ac582a65e2ff9b3124cd722adf5b8c2f4b2e30e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.2/fd65b84d12d6adc77ec0e4fcaca623fc391d8679/haha-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-2.0.2_84ee8bf1302f00d9145d96d64ba2d0b003d56065/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.4-beta2_12d6e40a5a51f51f1e514f41012d680ef7091995/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_3f0edd83e3cac59cc1c723c2ca4345e3af24438d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.baoyz.pullrefreshlayout/library/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d05c16d86108d3d34377946a79d79f8485a46bfa">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.baoyz.pullrefreshlayout-library-1.2.0_9e656923e312c0f749276df83ddc5d8173179eea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e325e9ba5c23d635d0cfaa76c349fca83101f8a">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-recyclerview-animators-2.2.3_81860b01ed733136dc1b03f2f8916363f050d29c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.10.0_0e8e1f2ecec770846f72fa59b4e303c4a123f0ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0bdf8a7407eebee579e78257100ab6f5c0a1f4d6">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4c10609d3a4a4eb4d1f861a78591a09a508b5733/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.10.0_22ab89b33423fe8a1aa37dfafdc0626b9b660a69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Users/liuzhenzhen/Desktop/local_code/Mas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.swipelayout-library-1.2.0_99cd294dbf486e7924efb689aba2ce9894584e9a/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_normal_extend"
+        android:id="@+id/temp_coupon_head"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/temp_coupon_head"
+        >
+
+        <EditText
+            android:id="@+id/et_coupon_add"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            android:singleLine="true"
+            android:hint="@string/coupon_hint_code"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:paddingRight="36dp"
+            android:textColorHint="@color/personalinfo_changenick_et_hint"
+            android:inputType="textNoSuggestions|number"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_coupon_add_etdelete"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@mipmap/personalinfo_et_shanchu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/fulltransparent"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btn_coupon_add_done"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="@string/coupon_title_exchange"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_status_unable"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/et_coupon_add"
+            />
+
+    </RelativeLayout>
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+
+</RelativeLayout>

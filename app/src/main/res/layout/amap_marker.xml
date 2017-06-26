@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/fulltransparent"
+    >
+
+    <ImageView
+        android:id="@+id/temp_zw"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@color/fulltransparent"
+        />
+
+    <TextView
+        android:id="@+id/tv_amap_marker_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="据您1000米"
+        android:background="@drawable/bg_amap_marker_distance"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/temp_zw"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/order_zuobiao_touxiang"
+        android:background="@color/fulltransparent"
+        android:layout_toRightOf="@id/temp_zw"
+        />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_amap_marker_photo"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contextClickable="false"
+        android:clickable="false"
+        fresco:placeholderImage="@mipmap/mine_head"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="@color/white"
+        fresco:roundingBorderWidth="0dp"
+        android:layout_toRightOf="@id/temp_zw"
+        />
+
+
+
+
+
+
+</RelativeLayout>

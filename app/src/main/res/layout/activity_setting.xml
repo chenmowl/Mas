@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_category"
+        android:id="@+id/temp_ll_setting_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_ll_setting_head"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/setting_hint_safe"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/hint_text_gray"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/setting_title_login_password"
+                android:textSize="14sp"
+                android:textColor="@color/title_text_gray"
+                />
+            <ImageView
+                android:id="@+id/temp_iv_one_arrow"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/mine_item_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_setting_login_password_status"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@id/temp_iv_one_arrow"
+                android:paddingRight="8dp"
+                android:textColor="@color/personalinfo_text_notset"
+                />
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/split_line_light"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_setting_pay_password"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/setting_title_pay_password"
+                android:textSize="14sp"
+                android:textColor="@color/status_text_gray"
+                />
+            <ImageView
+                android:id="@+id/temp_iv_two_arrow"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/mine_item_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_setting_pay_password_status"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/notset"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@id/temp_iv_two_arrow"
+                android:paddingRight="8dp"
+                android:textColor="@color/personalinfo_text_notset"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/setting_hint_system"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/hint_text_gray"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_cleancache"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/setting_title_cleancache"
+                android:textSize="14sp"
+                android:textColor="@color/title_text_gray"
+                />
+            <ImageView
+                android:id="@+id/temp_iv_three_arrow"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/mine_item_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_setting_cache"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0.00M"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@id/temp_iv_three_arrow"
+                android:paddingRight="8dp"
+                android:textColor="@color/status_text_gray"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_setting_quit"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/setting_title_quit"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_status_enable"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

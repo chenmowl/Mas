@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/cline_low"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tv_item_my_address_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新疆欧巴"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_bar"
+                />
+
+            <TextView
+                android:id="@+id/tv_item_my_address_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18614088888"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/text_color_bar"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_item_my_address_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京市海淀区 主语家园"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/hint_text_gray"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/tv_item_my_address_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3号楼2单元1029室"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                />
+            <LinearLayout
+                android:id="@+id/ll_item_my_address_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@color/fulltransparent"
+                    android:src="@mipmap/address_shanchu"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete"
+                    android:textSize="12sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:layout_marginLeft="3dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_item_my_address_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/ll_item_my_address_delete"
+                android:layout_marginRight="12dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@color/fulltransparent"
+                    android:src="@mipmap/address_bianji"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit"
+                    android:textSize="12sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:layout_marginLeft="3dp"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_category"
+        android:id="@+id/temp_ll_personalinfo_changenick_head"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_ll_personalinfo_changenick_head"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="44dp">
+
+            <EditText
+                android:id="@+id/et_personalinfo_changenick"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/white"
+                android:singleLine="true"
+                android:hint="@string/personalinfo_change_nickname_hint_input"
+                android:textSize="14sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="36dp"
+                android:textColorHint="@color/personalinfo_changenick_et_hint"
+                android:inputType="textNoSuggestions"
+                />
+            
+            <ImageButton
+                android:id="@+id/ib_personalinfo_changenick_etdelete"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@mipmap/personalinfo_et_shanchu"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/fulltransparent"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/personalinfo_change_nickname_hint_format"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/status_text_gray"
+            android:layout_marginLeft="15dp"
+            />
+
+        <Button
+            android:id="@+id/btn_personalinfo_changenick_done"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/done"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_status_unable"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+
+</RelativeLayout>

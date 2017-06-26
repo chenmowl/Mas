@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_normal_extend"
+        android:id="@+id/temp_ll_my_address_head"
+        />
+
+    <!--<com.eme.mas.customeview.CanScrollListView-->
+        <!--android:layout_below="@id/temp_ll_my_address_head"-->
+        <!--android:id="@+id/lv_my_address"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@color/activity_bg"-->
+        <!--android:dividerHeight="10dp"-->
+        <!--android:scrollbarStyle="outsideOverlay"-->
+        <!--/>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/temp_ll_my_address_head"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"/>
+
+    <include layout="@layout/network_loading_av_bg_transparent_44" />
+
+</RelativeLayout>

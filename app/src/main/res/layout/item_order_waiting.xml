@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E5ffffff"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_item_wf_icon"
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:contextClickable="false"
+            android:clickable="false"
+            fresco:placeholderImage="@mipmap/common_center_placeholder"
+            fresco:placeholderImageScaleType="focusCrop"
+            fresco:actualImageScaleType="focusCrop"
+            android:layout_marginTop="14dp"
+            android:visibility="visible"
+            android:background="@color/cline_low"
+            fresco:roundingBorderColor="#e1e1e1"
+            fresco:roundingBorderWidth="0dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/sdv_item_wf_icon"
+            android:layout_marginLeft="8dp"
+            android:layout_alignBottom="@id/sdv_item_wf_icon"
+            android:layout_alignTop="@id/sdv_item_wf_icon"
+            >
+            <TextView
+                android:id="@+id/tv_item_wf_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共计12件"
+                android:textSize="12sp"
+                android:textColor="@color/hint_text_gray"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_item_count_2"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="12sp"
+                    android:text="@string/order_edit_money_unit"
+                    android:layout_marginLeft="6dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_item_wf_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="12sp"
+                    android:text="888.88"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order_item_id"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_item_wf_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hint_text_gray"
+                        android:textSize="12sp"
+                        android:text="MS123456789(手机订单)"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_item_wf_refresh_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="6dp"
+                >
+                <ImageView
+                    android:id="@+id/iv_item_wf_refresh_icon"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@mipmap/order_shuaxin"
+                    android:scaleType="fitCenter"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_item_wf_refresh_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_item_refresh_map"
+                    android:textColor="@color/main_color_red"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/cline_low"
+            android:layout_below="@id/sdv_item_wf_icon"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

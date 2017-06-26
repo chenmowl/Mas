@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ViewPagerIndicator-1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.shizhefei/ViewPagerIndicator/1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.shizhefei/ViewPagerIndicator/1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.shizhefei/ViewPagerIndicator/1.1.0/ca172cd314373f1ade27ea88692b3917991d9832/ViewPagerIndicator-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

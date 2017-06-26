@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_normal" />
+
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+    <!--android:id="@+id/lv_message"-->
+    <!--style="@style/MListView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@android:color/white" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_order_notice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_message_height"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/bg_item_message">
+
+            <ImageView
+                android:id="@+id/iv_order_notice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/order_information" />
+
+            <TextView
+                android:id="@+id/tv_order_notice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/iv_order_notice"
+                android:text="订单通知"
+                android:textColor="@color/text_color_bar"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="11dp"
+                android:text="2017/07/31"
+                android:textColor="@color/text_color_gray02"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/iv_order_notice"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="亲爱的会员,您有一笔未支付订单即将自动取消"
+                android:textColor="@color/text_color_gray02"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/cline_low" />
+
+        <RelativeLayout
+            android:id="@+id/rl_pro_notice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_message_height"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/bg_item_message"
+            android:enabled="true">
+
+            <ImageView
+                android:id="@+id/iv_pro_notice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/commodity" />
+
+            <TextView
+                android:id="@+id/tv_pro_notice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/iv_pro_notice"
+                android:text="商品提醒"
+                android:textColor="@color/text_color_bar"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/iv_pro_notice"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="暂无消息"
+                android:textColor="@color/text_color_gray02"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/cline_low" />
+
+        <RelativeLayout
+            android:id="@+id/rl_system_notice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_message_height"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/bg_item_message"
+            android:enabled="true">
+
+            <ImageView
+                android:id="@+id/iv_system_notice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/system_messages" />
+
+            <TextView
+                android:id="@+id/tv_system_notice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/iv_system_notice"
+                android:text="系统消息"
+                android:textColor="@color/text_color_bar"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="11dp"
+                android:text="2017/07/31"
+                android:textColor="@color/text_color_gray02"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/iv_system_notice"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="亲爱的会员,双十一大促即将开始,全场满100减30"
+                android:textColor="@color/text_color_gray02"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

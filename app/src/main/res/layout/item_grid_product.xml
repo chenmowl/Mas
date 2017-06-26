@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home_grid_item_height"
+    android:background="@android:color/white">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_pro"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_grid_item_sdv_height"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        fresco:actualImageScaleType="fitXY"
+        fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_pro_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/sdv_pro"
+        android:layout_marginLeft="@dimen/home_grid_tv_left"
+        android:layout_marginRight="@dimen/home_grid_tv_right"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/text_color_bar"
+        android:textSize="@dimen/home_grid_tv_size" />
+
+    <TextView
+        android:id="@+id/tv_pro_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/home_grid_tv_left"
+        android:text="123"
+        android:textColor="@color/main_color_red"
+        android:textSize="@dimen/home_grid_tv_size" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="@dimen/home_grid_tv_left"
+        android:src="@mipmap/home_add" />
+
+
+</RelativeLayout>
+
+
+    <!--</LinearLayout>-->

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chad.library.adapter.base.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/tools"
+    android:id="@+id/l_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp"
+    android:background="@color/activity_bg"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/delete"
+            android:background="@color/main_color_red"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="删除"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activity_bg"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/activity_bg"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/order_item_id"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                />
+            <TextView
+                android:id="@+id/tv_iop_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="MX1234567890"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/cline_low"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="7"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="地址:北京市朝阳区建国路123号肯打鸡有限责任公司"
+                android:textColor="@color/text_color_bar"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/cline_low"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="立即送达"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="12sp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="8dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="预计12:00"
+                        android:textColor="@color/text_color_bar"
+                        android:textSize="12sp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="8dp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            >
+            <com.eme.mas.customeview.FixedListButton
+                android:id="@+id/btn_iop_do"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="按钮测试"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:background="@drawable/selecter_btn_bg_gray"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                style="?android:attr/borderlessButtonStyle"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</com.chad.library.adapter.base.swipe.SwipeLayout>

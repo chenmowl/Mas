@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--通用-->
+    <dimen name="bar_height">44dp</dimen>
+
+
+    <!--MainActivity-->
+    <dimen name="bottom_bar_height">48dp</dimen>//底部tab栏高度
+    <dimen name="bottom_bar_margin">4dp</dimen>//底部tab栏字体和图片间距
+    <dimen name="bottom_bar_image_size">22dp</dimen>//底部tab栏图片宽高
+    <dimen name="bottom_bar_text_size">11sp</dimen>//底部tab字体大小
+
+    <!--HomeFragment-->
+    <dimen name="home_grid_margin">5dp</dimen>//热门推荐距离屏幕边距
+    <dimen name="home_grid_item_height">235dp</dimen>//热门推荐距离屏幕边距
+    <dimen name="home_grid_item_sdv_height">170dp</dimen>//热门推荐条目图片高度
+    <dimen name="home_grid_tv_left">10dp</dimen>//热门推荐商品名左边距
+    <dimen name="home_grid_tv_right">15dp</dimen>//热门推荐商品名右边距
+    <dimen name="home_grid_tv_size">12sp</dimen>//热门推荐商品名字体大小
+    //热门推荐关键字textview宽度
+    <dimen name="home_key_height">40dp</dimen>//热门推荐关键字textview高度
+    <dimen name="home_brand_item_height">100dp</dimen>//品牌条目高度
+    <dimen name="home_cate_iv_height">48dp</dimen>//首页四大分类入口的图片宽高
+    //首页tab到底部距离
+
+
+    <!--CartFragment-->
+    <dimen name="cart_checkbox_size">17dp</dimen>//购物车选择按钮的宽高
+    <dimen name="cart_pro_name_size">13sp</dimen>//购物车条目商品名称的字体大小
+    <dimen name="cart_margin_left">10dp</dimen>//购物车条目商品名marginleft
+    <dimen name="cart_sdv_size">85dp</dimen>//购物车条目商品图宽高
+
+
+    <!--MessageCenterActivity-->
+    <dimen name="item_message_height">60dp</dimen>//消息中心的条目高度
+
+
+</resources>

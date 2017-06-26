@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_dd_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_gray_solid_white_8"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定删除？"
+            android:textSize="12sp"
+            android:textColor="@color/text_color_bar"
+            android:layout_margin="24dp"
+            android:gravity="center_horizontal"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/cline_deep"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:id="@+id/tv_dd_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="@string/cancel"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_bar"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:layout_marginBottom="2dp"
+                />
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/cline_deep"
+                />
+            <TextView
+                android:id="@+id/tv_dd_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="@string/ok"
+                android:textSize="12sp"
+                android:textColor="@color/main_color_red"
+                android:gravity="center"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

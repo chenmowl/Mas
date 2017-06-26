@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!--android:style/Theme.Black.NoTitleBar.Fullscreen-->
+    <!--android:Theme.Light.NoTitleBar-->
+    <!--android:Theme.Wallpaper.NoTitleBar-->
+    <!--Theme.Black.NoTitleBar-->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!--解决app首次安装的长时间白屏问题-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
+    </style>
+
+    <!--alertdialog样式-->
+    <style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert"/>
+
+    <style name="TranslucentActivity">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 除去title -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 除去背景色 -->
+    </style>
+
+    <!-- ListView样式 -->
+    <style name="MListView">
+        <item name="android:scrollbars">none</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- 水平分割线 -->
+    <style name="CLineHor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/cline_low</item>
+    </style>
+
+    <!-- 垂直分割线 -->
+    <style name="CLineVer">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/cline_low</item>
+    </style>
+
+    <style name="Popup_Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!--首页早餐区布局样式-->
+    <style name="home_spirit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--首页添加购物车的圆形按钮样式-->
+    <style name="BtnAddToCart">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:src">@mipmap/home_add</item>
+    </style>
+
+    <!-- 重写系统弹出Dialog -->
+    <style name="KDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 除去title -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 除去背景色 -->
+    </style>
+
+    <!--修改头像弹出样式-->
+    <style name="AnimDialogBottomEntry" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_photo_picker_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_photo_picker_exit</item>
+    </style>
+
+    <!--修改头像弹出样式-->
+    <style name="AnimDialogUpEntry" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_foot_mark_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_foot_mark_exit</item>
+    </style>
+
+
+    <!--星星样式-->
+    <style name="RatingBar_Rating">
+        <item name="android:progressDrawable">@drawable/bar_star</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+    </style>
+
+    <!-- Navigation Header -->
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">#FFE1E8EB</item>
+    </style>
+
+    <style name="AnimDialogAlphaEntry" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="@android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!--AVLoading大小样式-->
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="AVLoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+</resources>

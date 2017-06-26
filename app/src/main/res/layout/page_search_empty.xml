@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_search_empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="51dp"
+    android:visibility="gone"
+    android:layout_marginTop="@dimen/bar_height"
+    android:background="@color/tv_bg_gray">
+
+    <ImageView
+        android:id="@+id/iv_cart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@mipmap/search_masterless" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_cart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="未搜索到相关商品"
+        android:textColor="@color/cart_spec_tv"
+        android:textSize="16sp" />
+
+</RelativeLayout>

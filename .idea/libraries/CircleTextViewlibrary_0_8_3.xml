@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="CircleTextViewlibrary-0.8.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.owater.library/CircleTextViewlibrary/0.8.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.owater.library/CircleTextViewlibrary/0.8.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-2.4/caches/modules-2/files-2.1/com.owater.library/CircleTextViewlibrary/0.8.3/66b77172d39b64446389682485a2bef69a54a81c/CircleTextViewlibrary-0.8.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="@android:color/white">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_product_pic"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:background="@android:color/white"
+            android:scaleType="center"
+            fresco:placeholderImage="@mipmap/common_center_placeholder" />
+
+        <TextView
+            android:id="@+id/tv_pro_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sdv_product_pic"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingTop="8dp"
+            android:text="哈尔滨啤酒小麦王，哈尔滨品酒小麦"
+            android:textColor="@color/text_color_bar"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_pro_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:paddingBottom="6dp"
+            android:text="¥188.00"
+            android:textColor="@color/main_color_red"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>

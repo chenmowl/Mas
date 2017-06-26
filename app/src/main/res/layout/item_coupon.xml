@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/temp_rl_ic"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:background="@mipmap/coupon_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <ImageView
+            android:id="@+id/iv_item_coupon_title_bg"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="@color/coupon_purple"
+            />
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/corner_coupon_right_bottom"
+            />
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/corner_coupon_left_top"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/dot_line_little"
+            android:layout_below="@id/iv_item_coupon_title_bg"
+            android:layerType="software"
+            />
+
+
+        <ImageView
+            android:id="@+id/temp_iv_item_coupon_bigpoint"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/dot_line_middle"
+            android:layerType="software"
+            android:layout_alignParentBottom="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_below="@id/iv_item_coupon_title_bg"
+            android:layout_above="@id/temp_iv_item_coupon_bigpoint"
+            android:layout_marginBottom="-4dp"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_item_coupon_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textSize="60sp"
+                    android:textColor="@color/coupon_purple"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:id="@+id/tv_item_coupon_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_edit_money_unit"
+                    android:textSize="16sp"
+                    android:textColor="@color/coupon_purple"
+                    android:layout_alignBaseline="@id/tv_item_coupon_price"
+                    android:layout_toLeftOf="@id/tv_item_coupon_price"
+                    android:layout_marginRight="8dp"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/temp_tv_item_coupom_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="·"
+                    android:layout_centerInParent="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/hint_text_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_coupon_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新客专享券"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_color_bar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/temp_tv_item_coupom_point"
+                    android:layout_marginBottom="-2dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_coupon_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全场满20元可用"
+                    android:textSize="15sp"
+                    android:textColor="@color/hint_text_gray"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/temp_tv_item_coupom_point"
+                    android:layout_marginTop="-2dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_toLeftOf="@id/temp_tv_item_coupom_point"
+                    android:background="@color/hint_text_gray"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@id/tv_item_coupon_hint"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_toRightOf="@id/temp_tv_item_coupom_point"
+                    android:background="@color/hint_text_gray"
+                    android:layout_centerVertical="true"
+                    android:layout_alignRight="@id/tv_item_coupon_hint"
+                    android:layout_marginLeft ="10dp"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="······································"-->
+            <!--android:textSize="25sp"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/tv_item_coupon_valid_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018.8.1-2016-12-31"
+            android:textColor="@color/text_color_gray"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="4dp"
+        />
+
+        <TextView
+            android:id="@+id/tv_item_coupon_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仅限酒水类商品试用"
+            android:textColor="@color/text_color_gray"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_item_count_bia"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:background="@mipmap/coupon_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:alpha="0.8"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/activity_bg"
+        android:layout_below="@id/temp_rl_ic"
+        />
+
+
+</RelativeLayout>

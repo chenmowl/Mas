@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_no_network"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/activity_bg"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="您的网络不给力，请稍后再试"
+        android:textColor="@color/et_hint_gray"
+        android:layout_centerInParent="true"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_empty"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/icon_error_unkow"
+        android:layout_above="@id/tv_empty"
+        android:scaleType="fitCenter"
+        />
+
+    <Button
+        android:id="@+id/btn_stroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_empty"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_ring_red"
+        android:paddingBottom="12dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="12dp"
+        android:text="重新加载"
+        android:textColor="@color/main_color_red"
+        android:textSize="12sp" />
+
+</RelativeLayout>

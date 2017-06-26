@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/iv_item_evaluate_icon"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="@color/cline_low"
+        />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_item_evaluate_icon"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contextClickable="false"
+        android:clickable="false"
+        fresco:placeholderImage="@mipmap/common_center_placeholder"
+        fresco:placeholderImageScaleType="focusCrop"
+        fresco:actualImageScaleType="focusCrop"
+        android:background="@color/cline_low"
+        fresco:roundingBorderColor="#e1e1e1"
+        fresco:roundingBorderWidth="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/iv_item_evaluate_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/iv_item_evaluate_icon"
+        android:layout_alignTop="@id/iv_item_evaluate_icon"
+        >
+        <TextView
+            android:id="@+id/tv_item_evaluate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="82年雪碧"
+            android:textSize="12sp"
+            android:textColor="@color/hint_text_gray"
+            android:layout_marginTop="8dp"
+            />
+
+        <com.hedgehog.ratingbar.RatingBar
+            android:id="@+id/rbar_item_evaluate_evaluate"
+            android:layout_below="@id/tv_item_evaluate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            hedgehog:clickable="true"
+            hedgehog:halfstart="false"
+            hedgehog:starCount="5"
+            hedgehog:starEmpty="@mipmap/star_empty"
+            hedgehog:starFill="@mipmap/star_appraise"
+            hedgehog:starHalf="@mipmap/star_half"
+            hedgehog:starImageHeight="32dp"
+            hedgehog:starImageWidth="32dp"
+            hedgehog:starImagePadding="10dp"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_item_evaluate_comment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:maxLength="60"
+        android:layout_below="@id/iv_item_evaluate_icon"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/et_evaluate_bg"
+        android:hint="@string/evaluate_hint_share_text"
+        android:textSize="12sp"
+        android:textColorHint="@color/et_hint_gray"
+        android:gravity="top"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/cline_low"
+        android:layout_below="@id/et_item_evaluate_comment"
+
+        />
+
+</RelativeLayout>
